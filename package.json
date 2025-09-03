@@ -2,7 +2,7 @@
   "name": "nonsensify",
   "displayName": "nonsensify",
   "description": "Renames a random variable and its occurences to a nonsense word.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "ajxv",
   "keywords": [
     "rename",

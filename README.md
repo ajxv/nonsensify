@@ -34,6 +34,14 @@ nonsensify currently supports the following languages:
 - TypeScript (`.ts`)
 - Python (`.py`)
 
+## Usage
+
+1. Install the **nonsensify** extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ajxv.nonsensify).
+2. Open a file in one of the supported languages.
+3. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+4. Type and select `Nonsensify`.
+5. Watch your variable names transform into delightful nonsense!
+
 ## Known Issues
 
 - May cause spontaneous laughter or existential dread.
@@ -45,6 +53,10 @@ nonsensify currently supports the following languages:
 ### 0.1.0
 
 - Initial release: Let the nonsense begin!
+
+### 0.1.1
+
+- Updated logo.
 
 ---
 
