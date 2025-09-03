@@ -5,7 +5,7 @@
 # nonsensify
 
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/ajxv.nonsensify?label=VS%20Code%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ajxv.nonsensify)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://github.com/ajxv/nonsensify/blob/main/LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](./LICENSE)
 
 Welcome to **nonsensify** – the VS Code extension that takes your carefully named variables and gives them the silly, nonsensical names they truly deserve. Whether you want to prank your teammates, confuse your future self, or just add a dash of chaos to your codebase, nonsensify is here for you. (And hey, with a little refinement, it could even become a serious code obfuscation tool. But where's the fun in that?)
 
@@ -48,15 +48,12 @@ nonsensify currently supports the following languages:
 - Not recommended for production code (unless your production environment is a circus).
 - Some variable names may become so silly that even you won't recognize them.
 
-## Release Notes
+## Changelog
 
-### 0.1.0
+See the complete changelog in [CHANGELOG.md](./CHANGELOG.md).
 
-- Initial release: Let the nonsense begin!
-
-### 0.1.1
-
-- Updated logo.
+### What’s new
+- 0.1.1 — Updated logo
 
 ---
 

@@ -6,10 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## [0.1.0] - 2024-06-03
-
-- Initial release. The adventure begins! 🚀
-
 ## [0.1.1] - 2024-06-03
-
 - Updated logo 🚀
+
+## [0.1.0] - 2024-06-03
+- Initial release. The adventure begins! 🚀
