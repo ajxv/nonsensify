@@ -1,0 +1,61 @@
+{
+  "name": "nonsensify",
+  "displayName": "nonsensify",
+  "description": "Renames a random variable and its occurences to a nonsense word.",
+  "version": "0.1.0",
+  "publisher": "ajxv",
+  "keywords": [
+    "rename",
+    "variables",
+    "nonsense",
+    "fun",
+    "refactor",
+    "obfuscation"
+  ],
+  "icon": "images/nonsensify-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajxv/nonsensify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajxv/nonsensify/issues"
+  },
+  "homepage": "https://github.com/ajxv/nonsensify#readme",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Formatters",
+    "Other"
+  ],
+  "activationEvents": [],
+  "license": "MIT",
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "nonsensify.nonsensify",
+        "title": "Nonsensify"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
